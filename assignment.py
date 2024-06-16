@@ -15,10 +15,9 @@ def print_equilateral＿triangle(n):
         print('')
 
 def print_number(num):
-
     odd=''
     even=''
-    for i in str(num):
+    for i in num:
         if int(i)%2==0:
             even+=str(i)
         else:
@@ -29,6 +28,6 @@ def print_number(num):
 if __name__ == '__main__':
 
     print_equilateral＿triangle(9)
-    print_number(417324689435)
+    print_number('00000000')
 
 
