@@ -1,8 +1,3 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
 def print_equilateral＿triangle(n):
     for i in range(n):
         for j in range(n-i-1):
@@ -30,10 +25,10 @@ def print_number(num):
             odd+=str(i)
     print(''.join(sorted(odd,reverse=True)+sorted(even)))
 
-# Press the green button in the gutter to run the script.
+
 if __name__ == '__main__':
 
     print_equilateral＿triangle(9)
     print_number(417324689435)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
